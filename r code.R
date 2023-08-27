@@ -1,4 +1,4 @@
-# Line 2-21 for Figure 4: The proportion of variance explained by the first 10 PCs. ----
+# Line 2-21 for Figure 4: The proportion of variance explained by the first 10 PCs ----
 factors <- read.csv(file = "socioeconomic_factors.csv")
 factors <- factors[factors$POP_DEN > 1000, ]
 factors <- factors[,-1:-3]
